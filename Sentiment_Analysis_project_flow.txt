@@ -9,7 +9,7 @@ Sentiment_Analysis/
 │   ├── evaluate_model.py  # Evaluating the BERT model
 ├── src/
 │   ├── data_preprocessing.py  # Data preprocessing functions
-│   ├── train_model.py  # Model training functions
+│   ├── train_model2.py  # Model training functions
 │   ├── evaluate_model_2.py  # Model evaluation functions
 ├── tests/
 │   ├── test_data_preprocessing.py  # Unit tests for preprocessing

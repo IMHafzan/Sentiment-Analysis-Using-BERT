@@ -16,5 +16,4 @@ Sentiment_Analysis/
 ├── models/  # Directory to save the trained model
 │   ├── bert_model.pth
 ├── README.md
-├── requirements.txt
 ├── .gitignore

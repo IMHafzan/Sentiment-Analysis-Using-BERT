@@ -1,6 +1,6 @@
 //Steps For Training the Model and Using the Trained Model//
 
-Make sure to not leave any empty cells in your dataset to avoid any runtime errors.
+Avoid leaving any empty cells in your dataset to avoid runtime errors.
 
 optional step: run exploratory_data_analysis.py
 

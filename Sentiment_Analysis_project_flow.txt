@@ -9,7 +9,7 @@ Sentiment_Analysis/
 ├── src/
 │   ├── data_preprocessing.py  # Data preprocessing functions
 │   ├── train_model.py  # Model training functions
-│   ├── evaluate_model.py  # Model evaluation functions
+│   ├── evaluate_model_2.py  # Model evaluation functions
 ├── tests/
 │   ├── test_data_preprocessing.py  # Unit tests for preprocessing
 │   ├── test_train_model.py  # Unit tests for model training

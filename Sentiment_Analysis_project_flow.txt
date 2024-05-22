@@ -1,0 +1,20 @@
+Sentiment_Analysis/
+├── data/
+│   ├── imdb-movies-dataset.csv  # Your dataset
+├── scripts/
+│   ├── exploratory_data_analysis.py  # EDA script
+│   ├── preprocess_data.py  # Data preprocessing script
+│   ├── train_model.py  # Training the BERT model
+│   ├── evaluate_model.py  # Evaluating the BERT model
+├── src/
+│   ├── data_preprocessing.py  # Data preprocessing functions
+│   ├── train_model.py  # Model training functions
+│   ├── evaluate_model.py  # Model evaluation functions
+├── tests/
+│   ├── test_data_preprocessing.py  # Unit tests for preprocessing
+│   ├── test_train_model.py  # Unit tests for model training
+├── models/  # Directory to save the trained model
+│   ├── bert_model.pth
+├── README.md
+├── requirements.txt
+├── .gitignore

@@ -4,6 +4,7 @@ Sentiment_Analysis/
 ├── scripts/
 │   ├── exploratory_data_analysis.py  # EDA script
 │   ├── preprocess_data.py  # Data preprocessing script
+│   ├── predict_sentiment.py  
 │   ├── train_model.py  # Training the BERT model
 │   ├── evaluate_model.py  # Evaluating the BERT model
 ├── src/

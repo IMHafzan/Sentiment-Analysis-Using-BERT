@@ -15,13 +15,11 @@ class TestTrainModel(unittest.TestCase):
         self.assertIsInstance(val_data, torch.utils.data.TensorDataset)
 
     def test_train_model(self):
-        # Load the data
         train_data, val_data = load_data()
 
-        # Train the model
         train_model(train_data, val_data, epochs=1)
 
-        # Load the trained model
+
         model = BertForSequenceClassification.from_pretrained(
             'bert-base-uncased',
             num_labels=2,

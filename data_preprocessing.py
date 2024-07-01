@@ -9,9 +9,7 @@ def load_data(file_path):
 
 
 def preprocess_data(df):
-    # Manually create a simple sentiment label for demonstration
-    # This is a placeholder. You need a proper labeling mechanism
-    df['label'] = df['Rating'].apply(lambda x: 1 if x >= 6 else 0)  # Example: Rating >= 6 is positive
+    df['label'] = df['Rating'].apply(lambda x: 1 if x >= 6 else 0)  #  Rating >= 6 is positive
 
     le = LabelEncoder()
     df['label'] = le.fit_transform(df['label'])
